@@ -1,3 +1,3 @@
 # Mugen
 
-Implementation of the Mugen amplifier.
+Implementation of the Mugen amplifier, with some additions.
