@@ -4,4 +4,9 @@ Implementation of the Mugen amplifier, with some additions.
 
 ## Power Supply
 
-![power-supply.png](https://github.com/reyapo/mugen/tree/master/images/power-supply.png)
+### Schematic
+
+### PCB
+
+<img src="images/power-supply.png" width="48">
+
