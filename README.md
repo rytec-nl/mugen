@@ -1,4 +1,4 @@
-# Mugen
+# Mugen, my implementation
 
 This project is born because I wanted to connect an external amplifier to my Samsung smart tv that fits my tv cabinet.
 The obvious step was to build a hybrid tube/transistor amplifier myself. I was pointed to the Mugen hybrid amplifier. It fit my size and power requirements (I have 2 60W Visaton speakers). Altough there were some things that need to be added for it to work with my setup. 
