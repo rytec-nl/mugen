@@ -33,6 +33,10 @@ Finally I want the amplifier to look good. So I am planning to change the design
     - [ ] LED PWM
     - [ ] LED Level Controll
 
+## KiCad
+
+The PCBs are designed using [KiCad](http://kicad-pcb.org/). This is the most usable free PCB design software I could find, that also works on Linux. Before this project I normally would use [Eagle](https://www.autodesk.com/products/eagle/overview), I even started this project using Eagle. But for me it is just to expensive for boards larger than `160mm x 100mm` ($65 per month or in my case €85 per month). So I chose a free alternative, that so far I am liking very much!
+
 
 ## Power Supply
 
