@@ -1,4 +1,9 @@
+# Eagle files
 *.l#*
 *.b#*
 *.s#*
 *.lck
+
+# KiCad files
+*.bak
+*-bak

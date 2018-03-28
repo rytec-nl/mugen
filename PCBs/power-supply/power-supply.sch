@@ -1,0 +1,906 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L D_ALT D13
+U 1 1 5ABAAB07
+P 3700 1500
+F 0 "D13" H 3700 1600 50  0000 C CNN
+F 1 "1N4007" H 3700 1400 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-15_P10.16mm_Horizontal" H 3700 1500 50  0001 C CNN
+F 3 "" H 3700 1500 50  0001 C CNN
+	1    3700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Zener D1
+U 1 1 5ABAAC0E
+P 3700 1200
+F 0 "D1" H 3700 1300 50  0000 C CNN
+F 1 "110V" H 3700 1100 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-15_P10.16mm_Horizontal" H 3700 1200 50  0001 C CNN
+F 3 "" H 3700 1200 50  0001 C CNN
+	1    3700 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Bridge_+A-A B1
+U 1 1 5ABAAF42
+P 8500 1900
+F 0 "B1" H 8550 2175 50  0000 L CNN
+F 1 "D_Bridge_+A-A" H 8550 2100 50  0000 L CNN
+F 2 "Diodes_THT:Diode_Bridge_Round_D9.8mm" H 8500 1900 50  0001 C CNN
+F 3 "" H 8500 1900 50  0001 C CNN
+	1    8500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_ALT D10
+U 1 1 5ABAB4F3
+P 2450 1850
+F 0 "D10" H 2450 1950 50  0000 C CNN
+F 1 "BY228" H 2450 1750 50  0000 C CNN
+F 2 "Diodes_THT:D_T-1_P5.08mm_Horizontal" H 2450 1850 50  0001 C CNN
+F 3 "" H 2450 1850 50  0001 C CNN
+	1    2450 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L D_ALT D9
+U 1 1 5ABAB5EE
+P 2050 1850
+F 0 "D9" H 2050 1950 50  0000 C CNN
+F 1 "BY228" H 2050 1750 50  0000 C CNN
+F 2 "Diodes_THT:D_T-1_P5.08mm_Horizontal" H 2050 1850 50  0001 C CNN
+F 3 "" H 2050 1850 50  0001 C CNN
+	1    2050 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L D_ALT D11
+U 1 1 5ABAB622
+P 2050 2150
+F 0 "D11" H 2050 2250 50  0000 C CNN
+F 1 "BY228" H 2050 2050 50  0000 C CNN
+F 2 "Diodes_THT:D_T-1_P5.08mm_Horizontal" H 2050 2150 50  0001 C CNN
+F 3 "" H 2050 2150 50  0001 C CNN
+	1    2050 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L D_ALT D12
+U 1 1 5ABAB653
+P 2450 2150
+F 0 "D12" H 2450 2250 50  0000 C CNN
+F 1 "BY228" H 2450 2050 50  0000 C CNN
+F 2 "Diodes_THT:D_T-1_P5.08mm_Horizontal" H 2450 2150 50  0001 C CNN
+F 3 "" H 2450 2150 50  0001 C CNN
+	1    2450 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R40
+U 1 1 5ABABD92
+P 3700 2450
+F 0 "R40" V 3780 2450 50  0000 C CNN
+F 1 "82k" V 3700 2450 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 3630 2450 50  0001 C CNN
+F 3 "" H 3700 2450 50  0001 C CNN
+	1    3700 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R39
+U 1 1 5ABABE2E
+P 4200 2050
+F 0 "R39" V 4280 2050 50  0000 C CNN
+F 1 "330" V 4200 2050 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4130 2050 50  0001 C CNN
+F 3 "" H 4200 2050 50  0001 C CNN
+	1    4200 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R41
+U 1 1 5ABABE96
+P 4600 2450
+F 0 "R41" V 4680 2450 50  0000 C CNN
+F 1 "50k" V 4600 2450 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 4530 2450 50  0001 C CNN
+F 3 "" H 4600 2450 50  0001 C CNN
+	1    4600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R43
+U 1 1 5ABABED7
+P 4950 1850
+F 0 "R43" V 5030 1850 50  0000 C CNN
+F 1 "1k" V 4950 1850 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 4880 1850 50  0001 C CNN
+F 3 "" H 4950 1850 50  0001 C CNN
+	1    4950 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L R R42
+U 1 1 5ABABF35
+P 4950 900
+F 0 "R42" V 5030 900 50  0000 C CNN
+F 1 "1k" V 4950 900 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 4880 900 50  0001 C CNN
+F 3 "" H 4950 900 50  0001 C CNN
+	1    4950 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L LM350_TO220 U3
+U 1 1 5ABAD0FA
+P 3700 1850
+F 0 "U3" H 3550 1975 50  0000 C CNN
+F 1 "TL783" H 3700 1975 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 3700 2100 50  0001 C CIN
+F 3 "" H 3700 1850 50  0001 C CNN
+	1    3700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C25
+U 1 1 5ABBC641
+P 3150 2350
+F 0 "C25" H 3175 2450 50  0000 L CNN
+F 1 "100n" H 3175 2250 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L18.0mm_W6.0mm_P15.00mm_FKS3_FKP3" H 3188 2200 50  0001 C CNN
+F 3 "" H 3150 2350 50  0001 C CNN
+	1    3150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C23
+U 1 1 5ABBCA16
+P 1600 2000
+F 0 "C23" H 1625 2100 50  0000 L CNN
+F 1 "2n2" H 1625 1900 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L28.0mm_W8.0mm_P22.50mm_MKS4" H 1638 1850 50  0001 C CNN
+F 3 "" H 1600 2000 50  0001 C CNN
+	1    1600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C31
+U 1 1 5ABBCA5D
+P 3000 4950
+F 0 "C31" H 3025 5050 50  0000 L CNN
+F 1 "2n2" H 3025 4850 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L27.0mm_W9.0mm_P23.00mm" H 3038 4800 50  0001 C CNN
+F 3 "" H 3000 4950 50  0001 C CNN
+	1    3000 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C35
+U 1 1 5ABBCAD3
+P 3000 5750
+F 0 "C35" H 3025 5850 50  0000 L CNN
+F 1 "2n2" H 3025 5650 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L27.0mm_W9.0mm_P23.00mm" H 3038 5600 50  0001 C CNN
+F 3 "" H 3000 5750 50  0001 C CNN
+	1    3000 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C22
+U 1 1 5ABBCB32
+P 9300 2100
+F 0 "C22" H 9325 2200 50  0000 L CNN
+F 1 "100n" H 9325 2000 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02" H 9338 1950 50  0001 C CNN
+F 3 "" H 9300 2100 50  0001 C CNN
+	1    9300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C27
+U 1 1 5ABBCB78
+P 5150 1250
+F 0 "C27" H 5175 1350 50  0000 L CNN
+F 1 "22u" H 5175 1150 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D13.0mm_P5.00mm" H 5188 1100 50  0001 C CNN
+F 3 "" H 5150 1250 50  0001 C CNN
+	1    5150 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C24
+U 1 1 5ABBCBF0
+P 2900 2350
+F 0 "C24" H 2925 2450 50  0000 L CNN
+F 1 "150u" H 2925 2250 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D7.5mm_P2.50mm" H 2938 2200 50  0001 C CNN
+F 3 "" H 2900 2350 50  0001 C CNN
+	1    2900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C28
+U 1 1 5ABBCC82
+P 5150 2300
+F 0 "C28" H 5175 2400 50  0000 L CNN
+F 1 "22u" H 5175 2200 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D13.0mm_P5.00mm" H 5188 2150 50  0001 C CNN
+F 3 "" H 5150 2300 50  0001 C CNN
+	1    5150 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C26
+U 1 1 5ABBCCD7
+P 4350 2450
+F 0 "C26" H 4375 2550 50  0000 L CNN
+F 1 "10u" H 4375 2350 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D7.5mm_P2.50mm" H 4388 2300 50  0001 C CNN
+F 3 "" H 4350 2450 50  0001 C CNN
+	1    4350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C38
+U 1 1 5ABBCDBA
+P 3900 5750
+F 0 "C38" H 3925 5850 50  0000 L CNN
+F 1 "4700u" H 3925 5650 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn" H 3938 5600 50  0001 C CNN
+F 3 "" H 3900 5750 50  0001 C CNN
+	1    3900 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C37
+U 1 1 5ABBCE1E
+P 3600 5750
+F 0 "C37" H 3625 5850 50  0000 L CNN
+F 1 "4700u" H 3625 5650 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn" H 3638 5600 50  0001 C CNN
+F 3 "" H 3600 5750 50  0001 C CNN
+	1    3600 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C21
+U 1 1 5ABBCE87
+P 9000 2100
+F 0 "C21" H 9025 2200 50  0000 L CNN
+F 1 "220u" H 9025 2000 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P3.80mm" H 9038 1950 50  0001 C CNN
+F 3 "" H 9000 2100 50  0001 C CNN
+	1    9000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C32
+U 1 1 5ABBCEF5
+P 3300 4950
+F 0 "C32" H 3325 5050 50  0000 L CNN
+F 1 "4700u" H 3325 4850 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn" H 3338 4800 50  0001 C CNN
+F 3 "" H 3300 4950 50  0001 C CNN
+	1    3300 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C33
+U 1 1 5ABBCF68
+P 3600 4950
+F 0 "C33" H 3625 5050 50  0000 L CNN
+F 1 "4700u" H 3625 4850 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn" H 3638 4800 50  0001 C CNN
+F 3 "" H 3600 4950 50  0001 C CNN
+	1    3600 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C34
+U 1 1 5ABBCFD2
+P 3900 4950
+F 0 "C34" H 3925 5050 50  0000 L CNN
+F 1 "4700u" H 3925 4850 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn" H 3938 4800 50  0001 C CNN
+F 3 "" H 3900 4950 50  0001 C CNN
+	1    3900 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C36
+U 1 1 5ABBD03F
+P 3300 5750
+F 0 "C36" H 3325 5850 50  0000 L CNN
+F 1 "4700u" H 3325 5650 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn" H 3338 5600 50  0001 C CNN
+F 3 "" H 3300 5750 50  0001 C CNN
+	1    3300 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1850 4800 1850
+Wire Wire Line
+	2600 1850 3400 1850
+Wire Wire Line
+	3550 1500 3250 1500
+Wire Wire Line
+	3250 1200 3250 1850
+Connection ~ 3250 1850
+Wire Wire Line
+	3550 1200 3250 1200
+Connection ~ 3250 1500
+Wire Wire Line
+	3850 1500 4200 1500
+Wire Wire Line
+	4200 1200 4200 1900
+Connection ~ 4200 1850
+Wire Wire Line
+	3850 1200 4200 1200
+Connection ~ 4200 1500
+Wire Wire Line
+	2600 2150 2700 2150
+Wire Wire Line
+	2700 2150 2700 1850
+Connection ~ 2700 1850
+Wire Wire Line
+	1800 2150 1900 2150
+Wire Wire Line
+	1800 1850 1800 2750
+Wire Wire Line
+	1800 1850 1900 1850
+Wire Wire Line
+	1800 2750 5400 2750
+Connection ~ 1800 2150
+Wire Wire Line
+	2200 1850 2300 1850
+Wire Wire Line
+	2200 2150 2300 2150
+Wire Wire Line
+	2250 1650 2250 1850
+Wire Wire Line
+	1500 1650 2250 1650
+Connection ~ 2250 1850
+Wire Wire Line
+	2250 2350 2250 2150
+Wire Wire Line
+	1500 2350 2250 2350
+Connection ~ 2250 2150
+Wire Wire Line
+	3700 2150 3700 2300
+Wire Wire Line
+	4200 2200 4200 2250
+Wire Wire Line
+	4200 2250 3700 2250
+Connection ~ 3700 2250
+Wire Wire Line
+	3700 2750 3700 2600
+Wire Wire Line
+	4600 900  4600 2300
+Connection ~ 4600 1850
+Wire Wire Line
+	4600 2750 4600 2600
+Connection ~ 3700 2750
+Wire Wire Line
+	4800 900  4600 900 
+Wire Wire Line
+	5100 900  5400 900 
+Wire Wire Line
+	5100 1850 5400 1850
+Wire Wire Line
+	5150 1100 5150 900 
+Connection ~ 5150 900 
+Wire Wire Line
+	5150 2150 5150 1850
+Connection ~ 5150 1850
+Wire Wire Line
+	5150 2450 5150 2800
+Wire Wire Line
+	5150 1400 5150 1600
+Connection ~ 4600 2750
+Connection ~ 5150 2750
+Wire Wire Line
+	5150 1550 5400 1550
+Wire Wire Line
+	2900 2200 2900 1850
+Connection ~ 2900 1850
+Wire Wire Line
+	3150 2200 3150 1850
+Connection ~ 3150 1850
+Wire Wire Line
+	2900 2500 2900 2750
+Connection ~ 2900 2750
+Wire Wire Line
+	3150 2500 3150 2750
+Connection ~ 3150 2750
+Wire Wire Line
+	4350 2300 4350 1850
+Connection ~ 4350 1850
+Wire Wire Line
+	4350 2600 4350 2750
+Connection ~ 4350 2750
+Wire Wire Line
+	1600 1850 1600 1650
+Connection ~ 1600 1650
+Wire Wire Line
+	1600 2150 1600 2350
+Connection ~ 1600 2350
+Wire Wire Line
+	8500 1600 8500 1550
+Wire Wire Line
+	8500 1550 7800 1550
+Wire Wire Line
+	8500 2200 8500 2250
+Wire Wire Line
+	8500 2250 7800 2250
+Wire Wire Line
+	8800 1900 9650 1900
+Wire Wire Line
+	9300 1900 9300 1950
+Wire Wire Line
+	9000 1950 9000 1900
+Connection ~ 9000 1900
+Wire Wire Line
+	8200 1900 8150 1900
+Wire Wire Line
+	8150 1900 8150 2350
+Wire Wire Line
+	8150 2350 9650 2350
+Wire Wire Line
+	9300 2350 9300 2250
+Wire Wire Line
+	9000 2250 9000 2350
+Connection ~ 9000 2350
+Connection ~ 9300 1900
+Connection ~ 9300 2350
+Wire Wire Line
+	2650 4750 4500 4750
+Wire Wire Line
+	3900 4750 3900 4800
+Wire Wire Line
+	3600 4800 3600 4750
+Connection ~ 3600 4750
+Wire Wire Line
+	3300 4800 3300 4750
+Connection ~ 3300 4750
+Wire Wire Line
+	3000 4800 3000 4750
+Connection ~ 3000 4750
+Connection ~ 3900 4750
+Wire Wire Line
+	2650 5950 4500 5950
+Wire Wire Line
+	3900 5950 3900 5900
+Wire Wire Line
+	3000 5900 3000 5950
+Connection ~ 3000 5950
+Wire Wire Line
+	3300 5900 3300 5950
+Connection ~ 3300 5950
+Wire Wire Line
+	3600 5900 3600 5950
+Connection ~ 3600 5950
+Wire Wire Line
+	3900 5100 3900 5600
+Wire Wire Line
+	2650 5550 3900 5550
+Wire Wire Line
+	3600 5600 3600 5550
+Connection ~ 3600 5550
+Wire Wire Line
+	3300 5600 3300 5550
+Connection ~ 3300 5550
+Wire Wire Line
+	3000 5600 3000 5550
+Connection ~ 3000 5550
+Wire Wire Line
+	2650 5150 3900 5150
+Wire Wire Line
+	3600 5100 3600 5150
+Connection ~ 3600 5150
+Wire Wire Line
+	3300 5100 3300 5150
+Connection ~ 3300 5150
+Wire Wire Line
+	3000 5100 3000 5150
+Connection ~ 3000 5150
+Connection ~ 3900 5550
+Connection ~ 3900 5150
+Wire Wire Line
+	3900 5350 4450 5350
+Connection ~ 3900 5350
+Connection ~ 3900 5950
+$Comp
+L Conn_01x01 J10
+U 1 1 5ABC81E4
+P 5600 1550
+F 0 "J10" H 5600 1650 50  0000 C CNN
+F 1 "0V" H 5600 1450 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 5600 1550 50  0001 C CNN
+F 3 "" H 5600 1550 50  0001 C CNN
+	1    5600 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J11
+U 1 1 5ABC8263
+P 5600 1850
+F 0 "J11" H 5600 1950 50  0000 C CNN
+F 1 "+310V-L" H 5600 1750 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 5600 1850 50  0001 C CNN
+F 3 "" H 5600 1850 50  0001 C CNN
+	1    5600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J12
+U 1 1 5ABC82D9
+P 5600 2750
+F 0 "J12" H 5600 2850 50  0000 C CNN
+F 1 "0V" H 5600 2650 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 5600 2750 50  0001 C CNN
+F 3 "" H 5600 2750 50  0001 C CNN
+	1    5600 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J14
+U 1 1 5ABC836A
+P 9850 1900
+F 0 "J14" H 9850 2000 50  0000 C CNN
+F 1 "+42V" H 9850 1800 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 9850 1900 50  0001 C CNN
+F 3 "" H 9850 1900 50  0001 C CNN
+	1    9850 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J15
+U 1 1 5ABC8616
+P 9850 2350
+F 0 "J15" H 9850 2450 50  0000 C CNN
+F 1 "0V" H 9850 2250 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 9850 2350 50  0001 C CNN
+F 3 "" H 9850 2350 50  0001 C CNN
+	1    9850 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J18
+U 1 1 5ABC86A5
+P 4700 4750
+F 0 "J18" H 4700 4850 50  0000 C CNN
+F 1 "+38V" H 4700 4650 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 4700 4750 50  0001 C CNN
+F 3 "" H 4700 4750 50  0001 C CNN
+	1    4700 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J20
+U 1 1 5ABC8749
+P 4700 5500
+F 0 "J20" H 4700 5600 50  0000 C CNN
+F 1 "0V" H 4700 5400 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 4700 5500 50  0001 C CNN
+F 3 "" H 4700 5500 50  0001 C CNN
+	1    4700 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J21
+U 1 1 5ABC88C4
+P 4700 5950
+F 0 "J21" H 4700 6050 50  0000 C CNN
+F 1 "-38V" H 4700 5850 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 4700 5950 50  0001 C CNN
+F 3 "" H 4700 5950 50  0001 C CNN
+	1    4700 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J8
+U 1 1 5ABC895A
+P 2450 5950
+F 0 "J8" H 2450 6050 50  0000 C CNN
+F 1 "28V-D" H 2450 5850 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 2450 5950 50  0001 C CNN
+F 3 "" H 2450 5950 50  0001 C CNN
+	1    2450 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J7
+U 1 1 5ABC8ADB
+P 2450 5550
+F 0 "J7" H 2450 5650 50  0000 C CNN
+F 1 "28V-C" H 2450 5450 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 2450 5550 50  0001 C CNN
+F 3 "" H 2450 5550 50  0001 C CNN
+	1    2450 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J6
+U 1 1 5ABC8B71
+P 2450 5150
+F 0 "J6" H 2450 5250 50  0000 C CNN
+F 1 "28V-B" H 2450 5050 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 2450 5150 50  0001 C CNN
+F 3 "" H 2450 5150 50  0001 C CNN
+	1    2450 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J5
+U 1 1 5ABC8DA2
+P 2450 4750
+F 0 "J5" H 2450 4850 50  0000 C CNN
+F 1 "28V-A" H 2450 4650 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 2450 4750 50  0001 C CNN
+F 3 "" H 2450 4750 50  0001 C CNN
+	1    2450 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J4
+U 1 1 5ABC8EBA
+P 7600 2250
+F 0 "J4" H 7600 2350 50  0000 C CNN
+F 1 "30V-B" H 7600 2150 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 7600 2250 50  0001 C CNN
+F 3 "" H 7600 2250 50  0001 C CNN
+	1    7600 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J3
+U 1 1 5ABC9217
+P 7600 1550
+F 0 "J3" H 7600 1650 50  0000 C CNN
+F 1 "30V-A" H 7600 1450 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 7600 1550 50  0001 C CNN
+F 3 "" H 7600 1550 50  0001 C CNN
+	1    7600 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J2
+U 1 1 5ABC92C7
+P 1300 2350
+F 0 "J2" H 1300 2450 50  0000 C CNN
+F 1 "250V-B" H 1300 2250 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 1300 2350 50  0001 C CNN
+F 3 "" H 1300 2350 50  0001 C CNN
+	1    1300 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J1
+U 1 1 5ABC937C
+P 1300 1650
+F 0 "J1" H 1300 1750 50  0000 C CNN
+F 1 "250V-A" H 1300 1550 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 1300 1650 50  0001 C CNN
+F 3 "" H 1300 1650 50  0001 C CNN
+	1    1300 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x01 J9
+U 1 1 5ABCA4E3
+P 5600 900
+F 0 "J9" H 5600 1000 50  0000 C CNN
+F 1 "+310V-R" H 5600 800 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 5600 900 50  0001 C CNN
+F 3 "" H 5600 900 50  0001 C CNN
+	1    5600 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J13
+U 1 1 5ABCC23B
+P 9850 1600
+F 0 "J13" H 9850 1700 50  0000 C CNN
+F 1 "+42V" H 9850 1500 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 9850 1600 50  0001 C CNN
+F 3 "" H 9850 1600 50  0001 C CNN
+	1    9850 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J16
+U 1 1 5ABCC2DF
+P 9850 2650
+F 0 "J16" H 9850 2750 50  0000 C CNN
+F 1 "0V" H 9850 2550 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 9850 2650 50  0001 C CNN
+F 3 "" H 9850 2650 50  0001 C CNN
+	1    9850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J17
+U 1 1 5ABCCF48
+P 4700 4450
+F 0 "J17" H 4700 4550 50  0000 C CNN
+F 1 "+38V" H 4700 4350 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 4700 4450 50  0001 C CNN
+F 3 "" H 4700 4450 50  0001 C CNN
+	1    4700 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J19
+U 1 1 5ABCCFF3
+P 4700 5200
+F 0 "J19" H 4700 5300 50  0000 C CNN
+F 1 "0V" H 4700 5100 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 4700 5200 50  0001 C CNN
+F 3 "" H 4700 5200 50  0001 C CNN
+	1    4700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J22
+U 1 1 5ABCD0A1
+P 4700 6250
+F 0 "J22" H 4700 6350 50  0000 C CNN
+F 1 "-38V" H 4700 6150 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_2mmDrill" H 4700 6250 50  0001 C CNN
+F 3 "" H 4700 6250 50  0001 C CNN
+	1    4700 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 6250 4450 6250
+Wire Wire Line
+	4450 6250 4450 5950
+Connection ~ 4450 5950
+Wire Wire Line
+	4450 5500 4500 5500
+Wire Wire Line
+	4450 5200 4450 5550
+Wire Wire Line
+	4450 5200 4500 5200
+Connection ~ 4450 5350
+Wire Wire Line
+	4500 4450 4450 4450
+Wire Wire Line
+	4450 4450 4450 4750
+Connection ~ 4450 4750
+Wire Wire Line
+	9650 1600 9600 1600
+Wire Wire Line
+	9600 1600 9600 1900
+Connection ~ 9600 1900
+Wire Wire Line
+	9650 2650 9600 2650
+Wire Wire Line
+	9600 2350 9600 2700
+Connection ~ 9600 2350
+$Comp
+L Peltier_Element H1
+U 1 1 5ABD5606
+P 3700 700
+F 0 "H1" H 3700 825 50  0000 C CNN
+F 1 "Heatsink" H 3700 650 50  0000 C CNN
+F 2 "Heatsinks:Heatsink_Fischer_SK104-STCB_35x13mm__2xDrill3.5mm_ScrewM3" H 3700 630 50  0001 C CNN
+F 3 "" V 3700 725 50  0001 C CNN
+	1    3700 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5ABD5DB8
+P 5150 1600
+F 0 "#PWR01" H 5150 1350 50  0001 C CNN
+F 1 "GND" H 5150 1450 50  0000 C CNN
+F 2 "" H 5150 1600 50  0001 C CNN
+F 3 "" H 5150 1600 50  0001 C CNN
+	1    5150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5ABD5E66
+P 5150 2800
+F 0 "#PWR02" H 5150 2550 50  0001 C CNN
+F 1 "GND" H 5150 2650 50  0000 C CNN
+F 2 "" H 5150 2800 50  0001 C CNN
+F 3 "" H 5150 2800 50  0001 C CNN
+	1    5150 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 5150 1550
+$Comp
+L GND #PWR03
+U 1 1 5ABD61D3
+P 3700 850
+F 0 "#PWR03" H 3700 600 50  0001 C CNN
+F 1 "GND" H 3700 700 50  0000 C CNN
+F 2 "" H 3700 850 50  0001 C CNN
+F 3 "" H 3700 850 50  0001 C CNN
+	1    3700 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 700  3500 800 
+Wire Wire Line
+	3500 800  3900 800 
+Wire Wire Line
+	3900 800  3900 700 
+Wire Wire Line
+	3700 850  3700 800 
+Connection ~ 3700 800 
+$Comp
+L GND #PWR?
+U 1 1 5ABD7B4F
+P 4450 5550
+F 0 "#PWR?" H 4450 5300 50  0001 C CNN
+F 1 "GND" H 4450 5400 50  0000 C CNN
+F 2 "" H 4450 5550 50  0001 C CNN
+F 3 "" H 4450 5550 50  0001 C CNN
+	1    4450 5550
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 5500
+$Comp
+L GND #PWR?
+U 1 1 5ABD8305
+P 9600 2700
+F 0 "#PWR?" H 9600 2450 50  0001 C CNN
+F 1 "GND" H 9600 2550 50  0000 C CNN
+F 2 "" H 9600 2700 50  0001 C CNN
+F 3 "" H 9600 2700 50  0001 C CNN
+	1    9600 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 9600 2650
+$EndSCHEMATC
