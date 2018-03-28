@@ -11,27 +11,27 @@ Finally I want the amplifier to look good. So I am planning to change the design
 
 ## Todo
 
-- Power Supply
-   - ~~original schematic~~
-   - ~~PCB~~
-   - Add microcontoller power supply
-- Amplifier
-   - schematic
-   - PCB
-- Case
-   - Front
-      - design
-      - build
-   - back
-      - design
-      - build
-   - bottom/top
-   - sides
- - Firmware
-    - IR reciever
-    - Volume controll
-    - LED PWM
-    - LED Level Controll
+- [ ] Power Supply
+   - [x] original schematic
+   - [x] PCB
+   - [ ] Add microcontoller power supply
+- [ ] Amplifier
+   - [ ] schematic
+   - [ ] PCB
+- [ ] Case
+   - [ ] Front
+      - [ ] design
+      - [ ] build
+   - [ ] back
+      - [ ] design
+      - [ ] build
+   - [ ] bottom/top
+   - [ ] sides
+ - [ ] Firmware
+    - [ ] IR reciever
+    - [ ] Volume controll
+    - [ ] LED PWM
+    - [ ] LED Level Controll
 
 
 ## Power Supply
