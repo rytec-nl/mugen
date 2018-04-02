@@ -52,7 +52,7 @@ The PCBs are designed using [KiCad](http://kicad-pcb.org/). This is the most usa
 
 ### Schematic & PCB
 
-TODO
+<img src="images/amplifier.sch.svg" width="50%">
 
 ### 3D View
 

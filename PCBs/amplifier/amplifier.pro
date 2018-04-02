@@ -1,4 +1,4 @@
-update=Tue 27 Mar 2018 10:25:12 PM CEST
+update=Mon 02 Apr 2018 04:39:25 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,13 @@ LibName31=contrib
 LibName32=valves
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../../images/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
