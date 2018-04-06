@@ -1,11 +1,25 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# C
+# Mechanical_Heatsink_PAD
 #
-DEF C C 0 10 N Y 1 F N
+DEF Mechanical_Heatsink_PAD HS 0 0 Y Y 1 F N
+F0 "HS" 0 225 50 H V C CNN
+F1 "Mechanical_Heatsink_PAD" 0 150 50 H V C CNN
+F2 "" 12 -50 50 H I C CNN
+F3 "" 12 -50 50 H I C CNN
+DRAW
+P 10 0 1 10 -13 0 -38 0 -38 100 -63 100 -63 0 -88 0 -88 100 -113 100 -113 -50 -38 -50 f
+P 13 0 1 10 -13 0 -13 100 12 100 12 0 37 0 37 100 62 100 62 0 87 0 87 100 112 100 112 -50 -38 -50 f
+X ~ 1 0 -100 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power-supply-rescue_C
+#
+DEF power-supply-rescue_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C" 25 -100 50 H V L CNN
+F1 "power-supply-rescue_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -19,11 +33,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CP
+# power-supply-rescue_CP
 #
-DEF CP C 0 10 N Y 1 F N
+DEF power-supply-rescue_CP C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "CP" 25 -100 50 H V L CNN
+F1 "power-supply-rescue_CP" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -42,11 +56,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_01x01
+# power-supply-rescue_Conn_01x01
 #
-DEF Conn_01x01 J 0 40 Y N 1 F N
+DEF power-supply-rescue_Conn_01x01 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Conn_01x01" 0 -100 50 H V C CNN
+F1 "power-supply-rescue_Conn_01x01" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -64,11 +78,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_ALT
+# power-supply-rescue_D_ALT
 #
-DEF D_ALT D 0 40 N N 1 F N
+DEF power-supply-rescue_D_ALT D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_ALT" 0 -100 50 H V C CNN
+F1 "power-supply-rescue_D_ALT" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -87,11 +101,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Bridge_+A-A
+# power-supply-rescue_D_Bridge_+A-A
 #
-DEF D_Bridge_+A-A D 0 50 Y Y 1 F N
+DEF power-supply-rescue_D_Bridge_+A-A D 0 50 Y Y 1 F N
 F0 "D" 50 275 50 H V L CNN
-F1 "D_Bridge_+A-A" 50 200 50 H V L CNN
+F1 "power-supply-rescue_D_Bridge_+A-A" 50 200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -115,11 +129,11 @@ X ~ 4 0 300 100 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# D_Zener
+# power-supply-rescue_D_Zener
 #
-DEF D_Zener D 0 40 N N 1 F N
+DEF power-supply-rescue_D_Zener D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Zener" 0 -100 50 H V C CNN
+F1 "power-supply-rescue_D_Zener" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -138,27 +152,13 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GND
+# power-supply-rescue_LM350_TO220
 #
-DEF GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# LM350_TO220
-#
-DEF LM350_TO220 U 0 10 Y Y 1 F N
+DEF power-supply-rescue_LM350_TO220 U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "LM350_TO220" 0 125 50 H V L CNN
+F1 "power-supply-rescue_LM350_TO220" 0 125 50 H V L CNN
 F2 "TO_SOT_Packages_THT:TO-220_Vertical" 0 250 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
-ALIAS LT1584-ADJ
 $FPLIST
  TO?220*
 $ENDFPLIST
@@ -170,32 +170,11 @@ X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Peltier_Element
+# power-supply-rescue_R
 #
-DEF Peltier_Element PE 0 0 N Y 1 F N
-F0 "PE" 0 125 50 H V C CNN
-F1 "Peltier_Element" 0 -50 50 H V C CNN
-F2 "" 0 -70 50 H I C CNN
-F3 "" 0 25 50 V I C CNN
-DRAW
-S -140 75 -115 0 0 1 0 F
-S -90 75 -65 0 0 1 0 F
-S -15 75 -40 0 0 1 0 F
-S 35 75 10 0 0 1 0 F
-S 60 0 85 75 0 1 0 F
-S 110 0 135 75 0 1 0 F
-P 2 0 1 10 -150 0 150 0 F
-P 2 0 1 10 -150 75 150 75 N
-X ~ 1 -200 0 50 R 50 50 1 1 P
-X ~ 2 200 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# R
-#
-DEF R R 0 0 N Y 1 F N
+DEF power-supply-rescue_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R" 0 0 50 V V C CNN
+F1 "power-supply-rescue_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -206,6 +185,19 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
