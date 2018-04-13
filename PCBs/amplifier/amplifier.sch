@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L amplifier-rescue:ECC88 V1
+L Valve:ECC88 V1
 U 1 1 5AC23A79
 P 3800 3350
 F 0 "V1" H 3970 3630 50  0000 L CNN
@@ -26,29 +26,29 @@ F 3 "" H 3800 3350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L amplifier-rescue:ECC88 V1
-U 2 1 5AC23AD8
+L Valve:ECC88 V1
+U 0 1 5AC23AD8
 P 3150 3350
 F 0 "V1" H 3320 3630 50  0000 L CNN
 F 1 "ECC88" H 3350 3050 50  0000 L CNN
 F 2 "Valves:VALVE-NOVAL_P" H 3420 2950 50  0001 C CNN
 F 3 "" H 3150 3350 50  0001 C CNN
-	2    3150 3350
+	0    3150 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier-rescue:ECC88 V1
-U 3 1 5AC23B39
+L Valve:ECC88 V1
+U 0 1 5AC23B39
 P 10050 2950
 F 0 "V1" H 10220 3230 50  0000 L CNN
 F 1 "ECC88" H 10250 2650 50  0000 L CNN
 F 2 "Valves:VALVE-NOVAL_P" H 10320 2550 50  0001 C CNN
 F 3 "" H 10050 2950 50  0001 C CNN
-	3    10050 2950
+	0    10050 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier-rescue:ECC83 V2
+L Valve:ECC83 V2
 U 1 1 5AC23BC0
 P 4850 2900
 F 0 "V2" H 4980 3210 50  0000 C CNN
@@ -59,29 +59,29 @@ F 3 "" H 4850 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier-rescue:ECC83 V2
-U 2 1 5AC23C29
+L Valve:ECC83 V2
+U 0 1 5AC23C29
 P 9250 1700
 F 0 "V2" H 9380 2010 50  0000 C CNN
 F 1 "ECC83" H 9600 1400 50  0000 C CNN
 F 2 "Valves:VALVE-NOVAL_P" H 9520 1300 50  0001 C CNN
 F 3 "" H 9250 1700 50  0001 C CNN
-	2    9250 1700
+	0    9250 1700
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier-rescue:ECC83 V2
-U 3 1 5AC23C74
+L Valve:ECC83 V2
+U 0 1 5AC23C74
 P 10000 1650
 F 0 "V2" H 10130 1960 50  0000 C CNN
 F 1 "ECC83" H 10350 1350 50  0000 C CNN
 F 2 "Valves:VALVE-NOVAL_P" H 10270 1250 50  0001 C CNN
 F 3 "" H 10000 1650 50  0001 C CNN
-	3    10000 1650
+	0    10000 1650
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier-rescue:R R6
+L Device:R R6
 U 1 1 5AC23E18
 P 3150 2700
 F 0 "R6" V 3230 2700 50  0000 C CNN
@@ -92,7 +92,7 @@ F 3 "" H 3150 2700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:R R9
+L Device:R R9
 U 1 1 5AC24148
 P 3800 2700
 F 0 "R9" V 3880 2700 50  0000 C CNN
@@ -103,7 +103,7 @@ F 3 "" H 3800 2700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:R R11
+L Device:R R11
 U 1 1 5AC2419C
 P 4350 2900
 F 0 "R11" V 4430 2900 50  0000 C CNN
@@ -114,7 +114,7 @@ F 3 "" H 4350 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L amplifier-rescue:R R3
+L Device:R R3
 U 1 1 5AC24207
 P 2400 3350
 F 0 "R3" V 2480 3350 50  0000 C CNN
@@ -125,7 +125,7 @@ F 3 "" H 2400 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L amplifier-rescue:R R1
+L Device:R R1
 U 1 1 5AC242C7
 P 2100 3600
 F 0 "R1" V 2180 3600 50  0000 C CNN
@@ -136,7 +136,7 @@ F 3 "" H 2100 3600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:R R10
+L Device:R R10
 U 1 1 5AC24344
 P 4150 3550
 F 0 "R10" V 4230 3550 50  0000 C CNN
@@ -147,7 +147,7 @@ F 3 "" H 4150 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:R R13
+L Device:R R13
 U 1 1 5AC243E8
 P 4750 3550
 F 0 "R13" V 4830 3550 50  0000 C CNN
@@ -158,7 +158,7 @@ F 3 "" H 4750 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:R R12
+L Device:R R12
 U 1 1 5AC2443D
 P 4550 1850
 F 0 "R12" V 4630 1850 50  0000 C CNN
@@ -169,7 +169,7 @@ F 3 "" H 4550 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L amplifier-rescue:R R5
+L Device:R R5
 U 1 1 5AC244FB
 P 2750 4250
 F 0 "R5" V 2830 4250 50  0000 C CNN
@@ -180,7 +180,7 @@ F 3 "" H 2750 4250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:R R2
+L Device:R R2
 U 1 1 5AC2457A
 P 2100 5650
 F 0 "R2" V 2180 5650 50  0000 C CNN
@@ -191,7 +191,7 @@ F 3 "" H 2100 5650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:R R4
+L Device:R R4
 U 1 1 5AC245EC
 P 2500 5650
 F 0 "R4" V 2580 5650 50  0000 C CNN
@@ -202,7 +202,7 @@ F 3 "" H 2500 5650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:R R8
+L Device:R R8
 U 1 1 5AC24637
 P 3550 5700
 F 0 "R8" V 3630 5700 50  0000 C CNN
@@ -213,7 +213,7 @@ F 3 "" H 3550 5700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:R R7
+L Device:R R7
 U 1 1 5AC24697
 P 3550 5300
 F 0 "R7" V 3630 5300 50  0000 C CNN
@@ -224,7 +224,7 @@ F 3 "" H 3550 5300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:R R14
+L Device:R R14
 U 1 1 5AC246EE
 P 5150 5000
 F 0 "R14" V 5230 5000 50  0000 C CNN
@@ -235,7 +235,7 @@ F 3 "" H 5150 5000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:R R18
+L Device:R R18
 U 1 1 5AC2478C
 P 6000 5050
 F 0 "R18" V 6080 5050 50  0000 C CNN
@@ -246,7 +246,7 @@ F 3 "" H 6000 5050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:R R16
+L Device:R R16
 U 1 1 5AC247FB
 P 5650 5400
 F 0 "R16" V 5730 5400 50  0000 C CNN
@@ -257,7 +257,7 @@ F 3 "" H 5650 5400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L amplifier-rescue:R R15
+L Device:R R15
 U 1 1 5AC2488B
 P 5450 4400
 F 0 "R15" V 5530 4400 50  0000 C CNN
@@ -268,7 +268,7 @@ F 3 "" H 5450 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L amplifier-rescue:R R20
+L Device:R R20
 U 1 1 5AC248FE
 P 6100 4300
 F 0 "R20" V 6180 4300 50  0000 C CNN
@@ -279,7 +279,7 @@ F 3 "" H 6100 4300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:R R25
+L Device:R R25
 U 1 1 5AC24996
 P 7200 3700
 F 0 "R25" V 7280 3700 50  0000 C CNN
@@ -290,7 +290,7 @@ F 3 "" H 7200 3700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:R R24
+L Device:R R24
 U 1 1 5AC24A09
 P 7200 3200
 F 0 "R24" V 7280 3200 50  0000 C CNN
@@ -301,7 +301,7 @@ F 3 "" H 7200 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:R R19
+L Device:R R19
 U 1 1 5AC24A77
 P 6050 2450
 F 0 "R19" V 6130 2450 50  0000 C CNN
@@ -312,7 +312,7 @@ F 3 "" H 6050 2450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:R R22
+L Device:R R22
 U 1 1 5AC24B04
 P 6650 2200
 F 0 "R22" V 6730 2200 50  0000 C CNN
@@ -323,7 +323,7 @@ F 3 "" H 6650 2200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L amplifier-rescue:R R21
+L Device:R R21
 U 1 1 5AC24BA2
 P 6450 2900
 F 0 "R21" V 6530 2900 50  0000 C CNN
@@ -334,7 +334,7 @@ F 3 "" H 6450 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L amplifier-rescue:R R23
+L Device:R R23
 U 1 1 5AC24C23
 P 7000 1600
 F 0 "R23" V 7080 1600 50  0000 C CNN
@@ -345,7 +345,7 @@ F 3 "" H 7000 1600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L amplifier-rescue:R R17
+L Device:R R17
 U 1 1 5AC24CA1
 P 5700 1150
 F 0 "R17" V 5780 1150 50  0000 C CNN
@@ -356,7 +356,7 @@ F 3 "" H 5700 1150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:C C5
+L Device:C C5
 U 1 1 5AC24D7E
 P 4550 2000
 F 0 "C5" H 4575 2100 50  0000 L CNN
@@ -367,7 +367,7 @@ F 3 "" H 4550 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L amplifier-rescue:CP C1
+L Device:C C1
 U 1 1 5AC24E35
 P 1700 2400
 F 0 "C1" H 1725 2500 50  0000 L CNN
@@ -378,7 +378,7 @@ F 3 "" H 1700 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier-rescue:C C7
+L Device:C C7
 U 1 1 5AC25250
 P 5350 2650
 F 0 "C7" H 5375 2750 50  0000 L CNN
@@ -389,7 +389,7 @@ F 3 "" H 5350 2650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:C C3
+L Device:C C3
 U 1 1 5AC25A48
 P 3000 5600
 F 0 "C3" H 3025 5700 50  0000 L CNN
@@ -400,7 +400,7 @@ F 3 "" H 3000 5600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:CP C2
+L Device:CP C2
 U 1 1 5AC25B19
 P 2750 5600
 F 0 "C2" H 2775 5700 50  0000 L CNN
@@ -411,7 +411,7 @@ F 3 "" H 2750 5600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:LM337_TO220 U1
+L Regulator_Linear:LM337_TO220 U1
 U 1 1 5AC25F95
 P 4100 5100
 F 0 "U1" H 3950 4975 50  0000 C CNN
@@ -422,7 +422,7 @@ F 3 "" H 4100 5100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:D D2
+L Device:D D2
 U 1 1 5AC262F5
 P 4050 4800
 F 0 "D2" H 4050 4900 50  0000 C CNN
@@ -433,7 +433,7 @@ F 3 "" H 4050 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier-rescue:CP C4
+L Device:CP C4
 U 1 1 5AC263D7
 P 4100 5700
 F 0 "C4" H 4125 5800 50  0000 L CNN
@@ -444,7 +444,7 @@ F 3 "" H 4100 5700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:CP C6
+L Device:CP C6
 U 1 1 5AC266B3
 P 4650 5450
 F 0 "C6" H 4675 5550 50  0000 L CNN
@@ -455,7 +455,7 @@ F 3 "" H 4650 5450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier-rescue:BC550 Q1
+L Transistor_BJT:BC550 Q1
 U 1 1 5AC26A73
 P 3050 4050
 F 0 "Q1" H 3250 4125 50  0000 L CNN
@@ -466,7 +466,7 @@ F 3 "" H 3050 4050 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier-rescue:BC550 Q2
+L Transistor_BJT:BC550 Q2
 U 1 1 5AC26D0A
 P 3050 4500
 F 0 "Q2" H 3250 4575 50  0000 L CNN
@@ -477,7 +477,7 @@ F 3 "" H 3050 4500 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier-rescue:LED D1
+L Device:LED D1
 U 1 1 5AC27322
 P 2750 4800
 F 0 "D1" H 2750 4900 50  0000 C CNN
@@ -488,7 +488,7 @@ F 3 "" H 2750 4800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L amplifier-rescue:POT RV1
+L Device:POT RV1
 U 1 1 5AC275B6
 P 3150 4900
 F 0 "RV1" V 2975 4900 50  0000 C CNN
@@ -499,7 +499,7 @@ F 3 "" H 3150 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier-rescue:GND #PWR01
+L power:GND #PWR01
 U 1 1 5AC2ED6E
 P 5350 2850
 F 0 "#PWR01" H 5350 2600 50  0001 C CNN
@@ -510,7 +510,7 @@ F 3 "" H 5350 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier-rescue:Jumper JP1
+L Device:Jumper JP1
 U 1 1 5AC2FF11
 P 5100 1850
 F 0 "JP1" H 5100 2000 50  0000 C CNN
@@ -521,7 +521,7 @@ F 3 "" H 5100 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier-rescue:C C8
+L Device:C C8
 U 1 1 5AC305F0
 P 5650 3100
 F 0 "C8" H 5675 3200 50  0000 L CNN
@@ -532,7 +532,7 @@ F 3 "" H 5650 3100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L amplifier-rescue:C C9
+L Device:C C9
 U 1 1 5AC306D0
 P 5650 3600
 F 0 "C9" H 5675 3700 50  0000 L CNN
@@ -543,7 +543,7 @@ F 3 "" H 5650 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L amplifier-rescue:POT RV2
+L Device:POT RV2
 U 1 1 5AC30773
 P 5850 3350
 F 0 "RV2" V 5675 3350 50  0000 C CNN
@@ -554,7 +554,7 @@ F 3 "" H 5850 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier-rescue:BD139 Q3
+L Transistor_BJT:BD139 Q3
 U 1 1 5AC30809
 P 6250 3350
 F 0 "Q3" H 6450 3425 50  0000 L CNN
@@ -733,7 +733,7 @@ Wire Wire Line
 Connection ~ 4750 3350
 Connection ~ 5450 3350
 $Comp
-L amplifier-rescue:POT RV3
+L Device:POT RV3
 U 1 1 5AC321F1
 P 6250 2200
 F 0 "RV3" V 6075 2200 50  0000 C CNN
@@ -757,7 +757,7 @@ Wire Wire Line
 	6250 2000 6250 2050
 Connection ~ 6450 2200
 $Comp
-L amplifier-rescue:CP C10
+L Device:CP C10
 U 1 1 5AC32FC7
 P 6450 2400
 F 0 "C10" H 6475 2500 50  0000 L CNN
@@ -768,7 +768,7 @@ F 3 "" H 6450 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier-rescue:GND #PWR02
+L power:GND #PWR02
 U 1 1 5AC3357B
 P 6450 2600
 F 0 "#PWR02" H 6450 2350 50  0001 C CNN
