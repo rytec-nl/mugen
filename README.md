@@ -42,7 +42,7 @@ The PCBs are designed using [KiCad](http://kicad-pcb.org/). This is the most usa
 
 ### Schematic & PCB
 
-<img src="images/power-supply.sch.svg" width="50%"><img src="images/power-supply-brd.svg" width="50%">
+<img src="images/power-supply.svg" width="50%"><img src="images/power-supply-brd.svg" width="50%">
 
 ### 3D View
 

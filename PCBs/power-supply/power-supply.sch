@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power-supply-rescue:D_ALT D13
+L Device:D_ALT D13
 U 1 1 5ABAAB07
 P 3750 2100
 F 0 "D13" H 3750 2200 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 3750 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:D_Zener D1
+L Device:D_Zener D1
 U 1 1 5ABAAC0E
 P 3750 1800
 F 0 "D1" H 3750 1900 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 3750 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:D_Bridge_+A-A B1
+L Device:D_Bridge_+A-A B1
 U 1 1 5ABAAF42
 P 8200 2200
 F 0 "B1" H 8250 2475 50  0000 L CNN
@@ -48,7 +48,7 @@ F 3 "" H 8200 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:D_ALT D10
+L Device:D_ALT D10
 U 1 1 5ABAB4F3
 P 2500 2450
 F 0 "D10" H 2500 2550 50  0000 C CNN
@@ -59,7 +59,7 @@ F 3 "" H 2500 2450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power-supply-rescue:D_ALT D9
+L Device:D_ALT D9
 U 1 1 5ABAB5EE
 P 2100 2450
 F 0 "D9" H 2100 2550 50  0000 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 2100 2450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power-supply-rescue:D_ALT D11
+L Device:D_ALT D11
 U 1 1 5ABAB622
 P 2100 2750
 F 0 "D11" H 2100 2850 50  0000 C CNN
@@ -81,7 +81,7 @@ F 3 "" H 2100 2750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power-supply-rescue:D_ALT D12
+L Device:D_ALT D12
 U 1 1 5ABAB653
 P 2500 2750
 F 0 "D12" H 2500 2850 50  0000 C CNN
@@ -92,7 +92,7 @@ F 3 "" H 2500 2750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power-supply-rescue:R R40
+L Device:R R40
 U 1 1 5ABABD92
 P 3750 3050
 F 0 "R40" V 3830 3050 50  0000 C CNN
@@ -103,7 +103,7 @@ F 3 "" H 3750 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:R R39
+L Device:R R39
 U 1 1 5ABABE2E
 P 4250 2650
 F 0 "R39" V 4330 2650 50  0000 C CNN
@@ -114,7 +114,7 @@ F 3 "" H 4250 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:R R41
+L Device:R R41
 U 1 1 5ABABE96
 P 4650 3050
 F 0 "R41" V 4730 3050 50  0000 C CNN
@@ -125,7 +125,7 @@ F 3 "" H 4650 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:R R43
+L Device:R R43
 U 1 1 5ABABED7
 P 5000 2450
 F 0 "R43" V 5080 2450 50  0000 C CNN
@@ -136,7 +136,7 @@ F 3 "" H 5000 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power-supply-rescue:R R42
+L Device:R R42
 U 1 1 5ABABF35
 P 5000 1500
 F 0 "R42" V 5080 1500 50  0000 C CNN
@@ -147,7 +147,7 @@ F 3 "" H 5000 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power-supply-rescue:LM350_TO220 U3
+L Regulator_Linear:LM350_TO220 U3
 U 1 1 5ABAD0FA
 P 3750 2450
 F 0 "U3" H 3600 2575 50  0000 C CNN
@@ -158,7 +158,7 @@ F 3 "" H 3750 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:C C25
+L Device:C C25
 U 1 1 5ABBC641
 P 3200 2950
 F 0 "C25" H 3225 3050 50  0000 L CNN
@@ -169,7 +169,7 @@ F 3 "" H 3200 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:C C23
+L Device:C C23
 U 1 1 5ABBCA16
 P 1650 2600
 F 0 "C23" H 1675 2700 50  0000 L CNN
@@ -180,7 +180,7 @@ F 3 "" H 1650 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:C C31
+L Device:C C31
 U 1 1 5ABBCA5D
 P 2950 5300
 F 0 "C31" H 2975 5400 50  0000 L CNN
@@ -191,7 +191,7 @@ F 3 "" H 2950 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:C C35
+L Device:C C35
 U 1 1 5ABBCAD3
 P 2950 6100
 F 0 "C35" H 2975 6200 50  0000 L CNN
@@ -202,7 +202,7 @@ F 3 "" H 2950 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:C C22
+L Device:C C22
 U 1 1 5ABBCB32
 P 9000 2400
 F 0 "C22" H 9025 2500 50  0000 L CNN
@@ -213,7 +213,7 @@ F 3 "" H 9000 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:CP C27
+L Device:CP C27
 U 1 1 5ABBCB78
 P 5200 1850
 F 0 "C27" H 5225 1950 50  0000 L CNN
@@ -224,7 +224,7 @@ F 3 "" H 5200 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:CP C24
+L Device:CP C24
 U 1 1 5ABBCBF0
 P 2950 2950
 F 0 "C24" H 2975 3050 50  0000 L CNN
@@ -235,7 +235,7 @@ F 3 "" H 2950 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:CP C28
+L Device:CP C28
 U 1 1 5ABBCC82
 P 5200 2900
 F 0 "C28" H 5225 3000 50  0000 L CNN
@@ -246,7 +246,7 @@ F 3 "" H 5200 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:CP C26
+L Device:CP C26
 U 1 1 5ABBCCD7
 P 4400 3050
 F 0 "C26" H 4425 3150 50  0000 L CNN
@@ -257,7 +257,7 @@ F 3 "" H 4400 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:CP C38
+L Device:CP C38
 U 1 1 5ABBCDBA
 P 3850 6100
 F 0 "C38" H 3875 6200 50  0000 L CNN
@@ -268,7 +268,7 @@ F 3 "" H 3850 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:CP C37
+L Device:CP C37
 U 1 1 5ABBCE1E
 P 3550 6100
 F 0 "C37" H 3575 6200 50  0000 L CNN
@@ -279,7 +279,7 @@ F 3 "" H 3550 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:CP C21
+L Device:CP C21
 U 1 1 5ABBCE87
 P 8700 2400
 F 0 "C21" H 8725 2500 50  0000 L CNN
@@ -290,7 +290,7 @@ F 3 "" H 8700 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:CP C32
+L Device:CP C32
 U 1 1 5ABBCEF5
 P 3250 5300
 F 0 "C32" H 3275 5400 50  0000 L CNN
@@ -301,7 +301,7 @@ F 3 "" H 3250 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:CP C33
+L Device:CP C33
 U 1 1 5ABBCF68
 P 3550 5300
 F 0 "C33" H 3575 5400 50  0000 L CNN
@@ -312,7 +312,7 @@ F 3 "" H 3550 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:CP C34
+L Device:CP C34
 U 1 1 5ABBCFD2
 P 3850 5300
 F 0 "C34" H 3875 5400 50  0000 L CNN
@@ -323,7 +323,7 @@ F 3 "" H 3850 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:CP C36
+L Device:CP C36
 U 1 1 5ABBD03F
 P 3250 6100
 F 0 "C36" H 3275 6200 50  0000 L CNN
@@ -526,7 +526,7 @@ Wire Wire Line
 Connection ~ 3850 5700
 Connection ~ 3850 6300
 $Comp
-L power-supply-rescue:Conn_01x01 J10
+L Connector_Generic:Conn_01x01 J10
 U 1 1 5ABC81E4
 P 5650 2150
 F 0 "J10" H 5650 2250 50  0000 C CNN
@@ -537,7 +537,7 @@ F 3 "" H 5650 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:Conn_01x01 J11
+L Connector_Generic:Conn_01x01 J11
 U 1 1 5ABC8263
 P 5650 2450
 F 0 "J11" H 5650 2550 50  0000 C CNN
@@ -548,7 +548,7 @@ F 3 "" H 5650 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:Conn_01x01 J12
+L Connector_Generic:Conn_01x01 J12
 U 1 1 5ABC82D9
 P 5650 3350
 F 0 "J12" H 5650 3450 50  0000 C CNN
@@ -559,7 +559,7 @@ F 3 "" H 5650 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:Conn_01x01 J14
+L Connector_Generic:Conn_01x01 J14
 U 1 1 5ABC836A
 P 9550 2200
 F 0 "J14" H 9550 2300 50  0000 C CNN
@@ -570,7 +570,7 @@ F 3 "" H 9550 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:Conn_01x01 J15
+L Connector_Generic:Conn_01x01 J15
 U 1 1 5ABC8616
 P 9550 2650
 F 0 "J15" H 9550 2750 50  0000 C CNN
@@ -581,7 +581,7 @@ F 3 "" H 9550 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:Conn_01x01 J18
+L Connector_Generic:Conn_01x01 J18
 U 1 1 5ABC86A5
 P 4650 5100
 F 0 "J18" H 4650 5200 50  0000 C CNN
@@ -592,7 +592,7 @@ F 3 "" H 4650 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:Conn_01x01 J20
+L Connector_Generic:Conn_01x01 J20
 U 1 1 5ABC8749
 P 4650 5850
 F 0 "J20" H 4650 5950 50  0000 C CNN
@@ -603,7 +603,7 @@ F 3 "" H 4650 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:Conn_01x01 J21
+L Connector_Generic:Conn_01x01 J21
 U 1 1 5ABC88C4
 P 4650 6300
 F 0 "J21" H 4650 6400 50  0000 C CNN
@@ -614,7 +614,7 @@ F 3 "" H 4650 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:Conn_01x01 J8
+L Connector_Generic:Conn_01x01 J8
 U 1 1 5ABC895A
 P 2400 6300
 F 0 "J8" H 2400 6400 50  0000 C CNN
@@ -625,7 +625,7 @@ F 3 "" H 2400 6300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power-supply-rescue:Conn_01x01 J7
+L Connector_Generic:Conn_01x01 J7
 U 1 1 5ABC8ADB
 P 2400 5900
 F 0 "J7" H 2400 6000 50  0000 C CNN
@@ -636,7 +636,7 @@ F 3 "" H 2400 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power-supply-rescue:Conn_01x01 J6
+L Connector_Generic:Conn_01x01 J6
 U 1 1 5ABC8B71
 P 2400 5500
 F 0 "J6" H 2400 5600 50  0000 C CNN
@@ -647,7 +647,7 @@ F 3 "" H 2400 5500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power-supply-rescue:Conn_01x01 J5
+L Connector_Generic:Conn_01x01 J5
 U 1 1 5ABC8DA2
 P 2400 5100
 F 0 "J5" H 2400 5200 50  0000 C CNN
@@ -658,7 +658,7 @@ F 3 "" H 2400 5100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power-supply-rescue:Conn_01x01 J4
+L Connector_Generic:Conn_01x01 J4
 U 1 1 5ABC8EBA
 P 7300 2550
 F 0 "J4" H 7300 2650 50  0000 C CNN
@@ -669,7 +669,7 @@ F 3 "" H 7300 2550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power-supply-rescue:Conn_01x01 J3
+L Connector_Generic:Conn_01x01 J3
 U 1 1 5ABC9217
 P 7300 1850
 F 0 "J3" H 7300 1950 50  0000 C CNN
@@ -680,7 +680,7 @@ F 3 "" H 7300 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power-supply-rescue:Conn_01x01 J2
+L Connector_Generic:Conn_01x01 J2
 U 1 1 5ABC92C7
 P 1350 2950
 F 0 "J2" H 1350 3050 50  0000 C CNN
@@ -691,7 +691,7 @@ F 3 "" H 1350 2950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power-supply-rescue:Conn_01x01 J1
+L Connector_Generic:Conn_01x01 J1
 U 1 1 5ABC937C
 P 1350 2250
 F 0 "J1" H 1350 2350 50  0000 C CNN
@@ -702,7 +702,7 @@ F 3 "" H 1350 2250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power-supply-rescue:Conn_01x01 J9
+L Connector_Generic:Conn_01x01 J9
 U 1 1 5ABCA4E3
 P 5650 1500
 F 0 "J9" H 5650 1600 50  0000 C CNN
@@ -713,7 +713,7 @@ F 3 "" H 5650 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:Conn_01x01 J13
+L Connector_Generic:Conn_01x01 J13
 U 1 1 5ABCC23B
 P 9550 1900
 F 0 "J13" H 9550 2000 50  0000 C CNN
@@ -724,7 +724,7 @@ F 3 "" H 9550 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:Conn_01x01 J16
+L Connector_Generic:Conn_01x01 J16
 U 1 1 5ABCC2DF
 P 9550 2950
 F 0 "J16" H 9550 3050 50  0000 C CNN
@@ -735,7 +735,7 @@ F 3 "" H 9550 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:Conn_01x01 J17
+L Connector_Generic:Conn_01x01 J17
 U 1 1 5ABCCF48
 P 4650 4800
 F 0 "J17" H 4650 4900 50  0000 C CNN
@@ -746,7 +746,7 @@ F 3 "" H 4650 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:Conn_01x01 J19
+L Connector_Generic:Conn_01x01 J19
 U 1 1 5ABCCFF3
 P 4650 5550
 F 0 "J19" H 4650 5650 50  0000 C CNN
@@ -757,7 +757,7 @@ F 3 "" H 4650 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply-rescue:Conn_01x01 J22
+L Connector_Generic:Conn_01x01 J22
 U 1 1 5ABCD0A1
 P 4650 6600
 F 0 "J22" H 4650 6700 50  0000 C CNN
