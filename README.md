@@ -13,11 +13,19 @@ Finally I want the amplifier to look good. So I am planning to change the design
 
 - [ ] Power Supply
    - [x] original schematic
+   - [ ] schematic review 
    - [x] PCB
-   - [ ] Add microcontoller power supply
+   - [ ] PCB review 
 - [ ] Amplifier
-   - [ ] schematic
+   - [x] schematic 
+   - [ ] schematic review
    - [ ] PCB
+   - [ ] PCB review
+- [ ] Logic board
+   - [ ] schematic 
+   - [ ] schematic review
+   - [ ] PCB
+   - [ ] PCB review
 - [ ] Case
    - [ ] Front
       - [ ] design
