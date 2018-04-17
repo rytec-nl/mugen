@@ -9,6 +9,12 @@ The next challenge is that my TV only has an optical audio out, so I need to hoo
 
 Finally I want the amplifier to look good. So I am planning to change the design to have both tubes above eachother when facing the front of the amplifier. I can then place a see through window in front of the Tubes so they can be seen. Then hookup some LEDs to the microcontroller, and place them behind the tubes for some cool effects. Using the Microcontroller I can the dim the LEDs using a PWM signal. This all being carefull not to let the PWM signal interfere with the audio signal.
 
+## Additions
+
+As I'm working on the amplifier the design is improving. Instead of using plain windows in front of the tubes, the idea now is to use LCD displays where the backlight is removed. This gives a transparent view inside the amplifier when nothing is displayed. When needed lights inside the amp. will light up, and whatever is shown on the LCD becomes visible. This will be used for volume indication. 
+
+In order for this to be implemented, in stead of simply adding a power supply to the main power board, a completely extra PCB will be added for the logic needed. 
+
 ## Todo
 
 - [ ] Power Supply
@@ -36,10 +42,13 @@ Finally I want the amplifier to look good. So I am planning to change the design
    - [ ] bottom/top
    - [ ] sides
  - [ ] Firmware
+    - [x] IR reciever test
     - [ ] IR reciever
-    - [ ] Volume controll
+    - [ ] Volume control
     - [ ] LED PWM
-    - [ ] LED Level Controll
+    - [ ] LED Level Control
+    - [x] LCD control test
+    - [ ] LCD control
 
 ## KiCad
 
