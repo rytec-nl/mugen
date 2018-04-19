@@ -394,7 +394,7 @@ U 1 1 5AC275B6
 P 4300 4000
 F 0 "P1" V 4125 4000 50  0000 C CNN
 F 1 "2k" V 4200 4000 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_ACP_CA14-H2,5_Horizontal" H 4300 4000 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical" H 4300 4000 50  0001 C CNN
 F 3 "" H 4300 4000 50  0001 C CNN
 	1    4300 4000
 	1    0    0    -1  
@@ -438,7 +438,7 @@ U 1 1 5AC30773
 P 7000 2450
 F 0 "P2" V 6825 2450 50  0000 C CNN
 F 1 "5k" V 6900 2450 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_ACP_CA14-H2,5_Horizontal" H 7000 2450 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical" H 7000 2450 50  0001 C CNN
 F 3 "" H 7000 2450 50  0001 C CNN
 	1    7000 2450
 	1    0    0    -1  
@@ -614,7 +614,7 @@ U 1 1 5AC321F1
 P 7200 850
 F 0 "P3" V 7025 850 50  0000 C CNN
 F 1 "5k" V 7100 850 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_ACP_CA14-H2,5_Horizontal" H 7200 850 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical" H 7200 850 50  0001 C CNN
 F 3 "" H 7200 850 50  0001 C CNN
 	1    7200 850 
 	0    -1   -1   0   
